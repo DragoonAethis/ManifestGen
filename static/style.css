@@ -1,0 +1,87 @@
+/* Abyaha Libre from Google Fonts, on SIL Open Font License */
+/* Web Font Kit generated with Font Squirrel */
+
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('abhayalibre-extrabold.woff2') format('woff2'),
+         url('abhayalibre-extrabold.woff') format('woff');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Abhaya Libre';
+    src: url('abhayalibre-regular.woff2') format('woff2'),
+         url('abhayalibre-regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Abhaya Libre", serif;
+    font-size: 24px;
+    background-color: #2A363B;
+    color: #FFAC47;
+}
+
+a {
+    color: #FFAC47;
+}
+
+
+a:visited {
+    color: #FFAC47;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px 10px 0 10px;
+    text-shadow: 2px 2px 3px #111;
+}
+
+p {
+    text-align: justify;
+    line-height: 36px;
+    color: white;
+}
+
+ul, li {
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.midblock {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (min-width: 960px) {
+    body {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 64px;
+        padding-top: 15px;
+    }
+
+    .midblock, h1 {
+        max-width: 960px;
+        padding-left: calc((100% - 930px) / 2);
+        padding-right: calc((100% - 930px) / 2);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        max-width: 1200px;
+        padding-left: calc((100% - 1100px) / 2);
+        padding-right: calc((100% - 1100px) / 2);
+    }
+}

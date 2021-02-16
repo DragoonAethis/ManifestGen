@@ -1,0 +1,6 @@
+{
+  "name": "wikidumper",
+  "dependencies": {
+    "dumpster-dive": "^5.4.0"
+  }
+}

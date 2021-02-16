@@ -1,0 +1,3 @@
+# Morfeusz2 must be installed system-wide (It's a SWIG-generated
+# Python binding to a native C++ library, not installable from PyPI.)
+Flask~=1.1.2

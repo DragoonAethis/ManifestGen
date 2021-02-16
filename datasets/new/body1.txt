@@ -1,0 +1,14 @@
+!th:Obecnie $panuje wśród nas $zmianaanty$punctuation
+!th:Obecnie $panuje wokół ?nas $zmianaanty$punctuation
+!th:Obecnie $panuje $zmianaanty$punctuation
+Dlaczego pozwalamy na !transform:zmianaanty:zmiana:zmianę?
+Dlaczego akceptujemy !transform:zmianaanty:zmiana:zmianę?
+W tej chwili toczymy !th:walka:walkę z !transform:zmianaanty:jakość:jakością$punctuation
+Nie możemy !th:wciąż akceptować !transform:zmianaanty:terror:terroru$punctuation
+Nie możemy !th:wciąż pozwalać na $zmianaanty$punctuation
+Nie możemy !th:wciąż zezwalać na $zmianaanty$punctuation
+Koniec !sym:przyzwolenie:przyzwolenia na $zmianaanty$punctuation
+Koniec !sym:zgoda:zgody na $zmianaanty$punctuation
+Nie ma ?już !sym:przyzwolenie:przyzwolenia na $zmianaanty$punctuation
+Nie ma ?już zgody na $zmianaanty$punctuation
+Nie akceptujemy ?już $zmianaanty$punctuation

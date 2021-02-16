@@ -1,0 +1,3 @@
+body1: teza (obecnie mamy [coś złego])
+body2: pytanie (czy chcemy świata z [coś dobrego]/bez [coś złego])
+body3: antyteza (chcemy [coś dobrego])

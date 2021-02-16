@@ -1,0 +1,15 @@
+Panie, panowie$punctuation
+Panie i panowie$punctuation
+To nasza walka$punctuation
+To nasza szansa$punctuation
+To nasza kolej$punctuation
+To nasz czas$punctuation
+$musimy !th:iść do przodu$punctuation
+$musimy !th:iść naprzód$punctuation
+Odłóżmy na bok ?nasze różnice$punctuation
+Odłóżmy ?nasze różnice na bok$punctuation
+$niezapominajmy, do czego dążymy$punctuation
+$niezapominajmy, dlaczego walczymy$punctuation
+$niezapominajmy, o co walczymy$punctuation
+$niezapominajmy, po co walczymy$punctuation
+$niezapominajmy, jaki jest nasz cel$punctuation

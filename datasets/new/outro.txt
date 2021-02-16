@@ -1,0 +1,14 @@
+!th:Tylko !th:razem możemy zwyciężyć$punctuation
+Naprzód$punctuation
+To nasz czas$punctuation
+To nasza kolej$punctuation
+Czas na nas$punctuation
+Kolej na nas$punctuation
+Nadeszła pora na nas$punctuation
+Pokażmy, na co nas stać$punctuation
+Pokażmy, co możemy !th:razem$punctuation
+!th:Razem$punctuation
+Chodźmy$punctuation
+Pójdźcie z nami$punctuation
+!th:Razem możemy wszystko$punctuation
+!th:Razem osiągniemy cel$punctuation

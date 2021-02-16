@@ -1,0 +1,7 @@
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1
+!repeat:body1:0:1 !repeat:body2:0:1 $body3 $outro
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1 $outro
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1 $outro
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1 $outro
+$intro !repeat:body1:0:1 !repeat:body2:0:1 !repeat:body3:0:1 $outro

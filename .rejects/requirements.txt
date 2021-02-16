@@ -1,0 +1,11 @@
+# Scraper:
+praw
+
+# Cleaner:
+markdown
+BeautifulSoup4
+mediawiki-parser
+langdetect
+
+# Markov:
+markovify

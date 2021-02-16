@@ -1,0 +1,23 @@
+# Maintainer: Dragoon Aethis <dragoon@dragonic.eu>
+# Maintainer: Jan Rydzewski <flegmer@gmail.com>
+
+pkgname=morfeusz2-dictionaries
+pkgver=20210131
+pkgrel=1
+pkgdesc="SGJP and Polimorf dictionaries for the Morfeusz morphological analyser"
+arch=('any')
+url='http://morfeusz.sgjp.pl/'
+license=('BSD')
+
+source=("LICENSE"
+        "http://download.sgjp.pl/morfeusz/$pkgver/morfeusz2-dictionary-sgjp-$pkgver.tgz"
+        "http://download.sgjp.pl/morfeusz/$pkgver/morfeusz2-dictionary-polimorf-$pkgver.tgz")
+sha256sums=("16c7ca379ef9fb6368c20d0ee71a9c83dd9c55e3b9fc34aade443c33d731d829"
+            "8f986b81d89c6d0e8883ae4e7345183677c57d5aed3aa22a9419673898f0545e"
+            "32be9a79257a3623cfa8f2a3710c92515c223dcd5e5d5017ba6797b8455ecd00")
+
+package() {
+	cd "$srcdir"
+	install -D -t "$pkgdir/usr/share/morfeusz2/dictionaries/" sgjp-*.dict polimorf-*.dict
+	install -D -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE
+}
