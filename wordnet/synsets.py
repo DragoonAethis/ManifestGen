@@ -1,7 +1,7 @@
 import re
 import os.path
 import sqlite3
-from typing import Optional
+from typing import Optional, List, Tuple
 
 __all__ = [
     'query',  # Returns a ParsedSynset for a given word, or None
@@ -21,7 +21,7 @@ with sqlite3.connect(DATABASE_PATH) as rel_db:
 
 
 class Synset:
-    def __init__(self, pk: int, words: list[str]):
+    def __init__(self, pk: int, words: List[str]):
         self.id = pk
         self.words = words
         self.outgoing = []
@@ -55,7 +55,7 @@ def get_synset(db: sqlite3.Connection, word: str) -> Optional[Synset]:
     return matching_synset
 
 
-def parse_synset_units(units: str) -> list[str]:
+def parse_synset_units(units: str) -> List[str]:
     """Parse the synset string into a list of words."""
     units = units.strip()
     if units[0] == '(' and units[-1] == ')':
@@ -78,7 +78,7 @@ def parse_synset_units(units: str) -> list[str]:
 
 
 def get_related_words(db: sqlite3.Connection, pk: int) ->\
-        tuple[list[tuple[str, list[str]]], list[tuple[str, list[str]]]]:
+        Tuple[List[Tuple[str, List[str]]], List[Tuple[str, List[str]]]]:
     """Given a synset ID, get all incoming/outgoing relations and
     parse their related words, returning two from/to result lists."""
     cursor = db.execute("SELECT rel.type_id, s1.id, s1.synset, s2.id, s2.synset"
