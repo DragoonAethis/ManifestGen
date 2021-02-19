@@ -38,7 +38,7 @@ def setup_function(name: str, function: Callable):
 	print(f"Setup finished for {name}")
 
 
-def generate_text(name, single_words_only=False):
+def generate_text(name="start", single_words_only=False):
 	result = ""
 	choices = DICT_LINES[name]
 	if single_words_only:

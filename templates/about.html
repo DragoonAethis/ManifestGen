@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Generator Manifestów</title>
-    <link rel="stylesheet" type="text/css" href="/static/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='normalize.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="centered">
@@ -30,7 +30,7 @@
         </ul>
     </div>
     <div class="centered">
-        <footer><a href="/">Wróc do generatora</a></footer>
+        <footer><a href="{{ url_for('index') }}">Wróc do generatora</a></footer>
     </div>
 </body>
 </html>
